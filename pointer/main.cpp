@@ -4,11 +4,11 @@
 #include <crtdbg.h>
 
 #ifdef _DEBUG
-#define new new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
+#define new  new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
 // Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
 // allocations to be of _CLIENT_BLOCK type
 #else
-#define DBG_NEW new
+#define new new
 #endif
 
 void DeletePointer(void*& pointer)
@@ -29,7 +29,7 @@ int main()
 
 	// todo : 메로리 릭 일부러
 	int* intpointer = new int;
-	delete intpointer
+
 
 	//new int[10];
 
