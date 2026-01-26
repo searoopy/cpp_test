@@ -1,6 +1,12 @@
 #include <iostream>
 #include <string>
 #include <tchar.h>
+#include <Windows.h>
+
+
+#define MYTEXT(value) L##value
+#define MYTEST(value1, value2) value1##value2
+
 
 class Player
 {
@@ -54,6 +60,14 @@ int main()
 
 	Player player("ganada");
 
+
+
+	//const wchar_t* wideString = L"Hello wide string";
+	const wchar_t* wideString = MYTEXT("Hello wide string");
+
+	std::wcout << wideString << TEXT("\n");
+
+	auto test = MYTEST(10, 20);
 
 
 

@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <crtdbg.h>
 
+
+
+
+
 //배열을 함수에 전달.
 void PrintArray(int* array, int length)
 {
