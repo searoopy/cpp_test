@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inhevent", "Inhevent\Inheve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pholisy", "pholisy\pholisy.vcxproj", "{D0E358B7-A7C8-4997-A2ED-4EBB2F4E8E6E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.vcxproj", "{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,10 @@ Global
 		{D0E358B7-A7C8-4997-A2ED-4EBB2F4E8E6E}.Debug|x64.Build.0 = Debug|x64
 		{D0E358B7-A7C8-4997-A2ED-4EBB2F4E8E6E}.Release|x64.ActiveCfg = Release|x64
 		{D0E358B7-A7C8-4997-A2ED-4EBB2F4E8E6E}.Release|x64.Build.0 = Release|x64
+		{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}.Debug|x64.ActiveCfg = Debug|x64
+		{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}.Debug|x64.Build.0 = Debug|x64
+		{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}.Release|x64.ActiveCfg = Release|x64
+		{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
