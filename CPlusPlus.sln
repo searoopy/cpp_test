@@ -29,6 +29,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pholisy", "pholisy\pholisy.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.vcxproj", "{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static", "static\static.vcxproj", "{2A300768-8F27-4741-B6FE-52A76A9EEAC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TypeCasting", "TypeCasting\TypeCasting.vcxproj", "{E61D94D5-6212-449E-8918-8F783C6F3267}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "templete", "templete\templete.vcxproj", "{10B99EB3-BBB3-4219-BD67-85D2E8880029}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "File", "File\File.vcxproj", "{2302526D-613E-482D-B738-42D54196EF47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -87,6 +95,22 @@ Global
 		{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}.Debug|x64.Build.0 = Debug|x64
 		{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}.Release|x64.ActiveCfg = Release|x64
 		{ED80929A-3E4D-47FD-86AC-D3B86A44BDB8}.Release|x64.Build.0 = Release|x64
+		{2A300768-8F27-4741-B6FE-52A76A9EEAC6}.Debug|x64.ActiveCfg = Debug|x64
+		{2A300768-8F27-4741-B6FE-52A76A9EEAC6}.Debug|x64.Build.0 = Debug|x64
+		{2A300768-8F27-4741-B6FE-52A76A9EEAC6}.Release|x64.ActiveCfg = Release|x64
+		{2A300768-8F27-4741-B6FE-52A76A9EEAC6}.Release|x64.Build.0 = Release|x64
+		{E61D94D5-6212-449E-8918-8F783C6F3267}.Debug|x64.ActiveCfg = Debug|x64
+		{E61D94D5-6212-449E-8918-8F783C6F3267}.Debug|x64.Build.0 = Debug|x64
+		{E61D94D5-6212-449E-8918-8F783C6F3267}.Release|x64.ActiveCfg = Release|x64
+		{E61D94D5-6212-449E-8918-8F783C6F3267}.Release|x64.Build.0 = Release|x64
+		{10B99EB3-BBB3-4219-BD67-85D2E8880029}.Debug|x64.ActiveCfg = Debug|x64
+		{10B99EB3-BBB3-4219-BD67-85D2E8880029}.Debug|x64.Build.0 = Debug|x64
+		{10B99EB3-BBB3-4219-BD67-85D2E8880029}.Release|x64.ActiveCfg = Release|x64
+		{10B99EB3-BBB3-4219-BD67-85D2E8880029}.Release|x64.Build.0 = Release|x64
+		{2302526D-613E-482D-B738-42D54196EF47}.Debug|x64.ActiveCfg = Debug|x64
+		{2302526D-613E-482D-B738-42D54196EF47}.Debug|x64.Build.0 = Debug|x64
+		{2302526D-613E-482D-B738-42D54196EF47}.Release|x64.ActiveCfg = Release|x64
+		{2302526D-613E-482D-B738-42D54196EF47}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
